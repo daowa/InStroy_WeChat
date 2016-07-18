@@ -37,9 +37,9 @@ $wxmenu=new wxmenu($ACCESS_TOKEN);
 $create=$wxmenu->createMenu($menuPostData);
 
 //get current menu
-$get=$wxmenu->getMenu();
-var_dump($get);
+// $get=$wxmenu->getMenu();
+// var_dump($get);
 
 //delete current menu
-$del=$wxmenu->deleteMenu();
-var_dump($del);
+// $del=$wxmenu->deleteMenu();
+// var_dump($del);

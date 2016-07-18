@@ -11,4 +11,4 @@ require 'menu.php';
 $create->run();
 // $weixin = new DefaultWeixin();
 // $weixin->run();
-// exit(0);
+exit(0);
