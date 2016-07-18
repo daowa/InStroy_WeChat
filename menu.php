@@ -6,42 +6,85 @@ $ret=wxcommon::getToken();
 $ACCESS_TOKEN=$ret['access_token'];
 $menuPostData='{
   				 "button":[
-					 {	
-						  "type":"click",
-						  "name":"景区助手",
-						  "key":"V1001_TODAY_MUSIC"
-					  },
-					  {
-						   "type":"click",
-						   "name":"歌手简介",
-						   "key":"V1001_TODAY_SINGER"
-					  },
-					  {
-						   "name":"菜单",
-						   "sub_button":[
+					  {	
+						  "name":"自助游玩",
+						  "sub_button":[
 							{
-							   "type":"click",
-							   "name":"hello word",
-							   "key":"V1001_HELLO_WORLD"
+							   "type":"view",
+							   "name":"更换景区",
+							   "url":"http://www.bilibili.com"
+							},
+							{
+							   "type":"view",
+							   "name":"景区地图",
+							   "url":"http://www.bilibili.com"
+							},
+							{
+							   "type":"view",
+							   "name":"语音导游",
+							   "url":"http://www.bilibili.com"
 							},
 							{
 							   "type":"click",
-							   "name":"赞一下我们",
-							   "key":"V1001_GOOD"
+							   "name":"推荐景点",
+							   "key":"V142857_RecommendSpot"
+							},
+							{
+							   "type":"click",
+							   "name":"推荐线路",
+							   "key":"V142857_RecommendLine"
+							}]
+					  },
+					  {
+						   "name":"景区服务",
+						   "sub_button":[
+							{
+							   "type":"click",
+							   "name":"景区公告",
+							   "key":"V142857_Announcement"
+							},
+							{
+							   "type":"view",
+							   "name":"景区客服",
+							   "url":"http://www.bilibili.com"
+							},
+							{
+							   "type":"view",
+							   "name":"人工导游",
+							   "url":"http://www.bilibili.com"
+							}]
+					  },
+					  {
+						   "name":"景点互动",
+						   "sub_button":[
+							{
+							   "type":"view",
+							   "name":"最美照片",
+							   "url":"http://www.bilibili.com"
+							},
+							{
+							   "type":"view",
+							   "name":"生成游记",
+							   "url":"http://www.bilibili.com"
+							},
+							{
+							   "type":"view",
+							   "name":"个人中心",
+							   "url":"http://www.bilibili.com"
 							}]
 					   }]
 				 }';
          
 // create new menu
 $wxmenu=new wxmenu($ACCESS_TOKEN);	 
-// $create=$wxmenu->createMenu($menuPostData);
+$create=$wxmenu->createMenu($menuPostData);
 
 //get current menu
 // $get=$wxmenu->getMenu();
 // var_dump($get);
 
 //delete current menu
-$del=$wxmenu->deleteMenu();
-var_dump($del);
+// $del=$wxmenu->deleteMenu();
+// var_dump($del);
 
 ?>
