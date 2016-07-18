@@ -36,10 +36,10 @@ $menuPostData='{
 $wxmenu=new wxmenu($ACCESS_TOKEN);	 
 $create=$wxmenu->createMenu($menuPostData);
 
-// //get current menu
-// $get=$wxmenu->getMenu();
-// var_dump($get);
+//get current menu
+$get=$wxmenu->getMenu();
+var_dump($get);
 
-// //delete current menu
-// $del=$wxmenu->deleteMenu();
-// var_dump($del);
+//delete current menu
+$del=$wxmenu->deleteMenu();
+var_dump($del);
