@@ -314,8 +314,6 @@ private $_ACCESS_TOKEN;
     }else{
     	return false;
     }
-    
-	
   }
   
   /**

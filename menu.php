@@ -8,7 +8,7 @@ $menuPostData='{
   				 "button":[
 					 {	
 						  "type":"click",
-						  "name":"今日歌曲",
+						  "name":"景区助手",
 						  "key":"V1001_TODAY_MUSIC"
 					  },
 					  {
@@ -43,3 +43,5 @@ $create=$wxmenu->createMenu($menuPostData);
 //delete current menu
 // $del=$wxmenu->deleteMenu();
 // var_dump($del);
+
+?>
