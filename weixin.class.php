@@ -307,10 +307,10 @@ private $_ACCESS_TOKEN;
 	*/
   public function createMenu($menu){
   $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->_ACCESS_TOKEN;
-  echo 'token'.$this->ACCESS_TOKEN;
+  echo 'token'.$url.'\r\n';
   $content=curl_post($url,$menu);
   $ret=json_decode($content,true);
-  echo 'json'.$ret;
+  echo 'json'.$content;
     if($ret['errcode']==0){
         return true;
     }else{
