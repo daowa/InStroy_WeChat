@@ -273,12 +273,14 @@ function curl_post($url,$data){
 class wxcommon{
 
   /**
-  * get the Token��
+  * get the Token
   *@return {"access_token":"ACCESS_TOKEN","expires_in":7200} or false
   */
   public static function getToken(){
   $url="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".APPID."&secret=".APPSECRET;
+  echo "first:".$url."\r\n";
   $content=file_get_contents($url);
+  echo "response:".$content."\r\n";
   $ret=json_decode($content,true);
     if(array_key_exists('errcode',$ret)){
         return false;
@@ -307,7 +309,7 @@ private $_ACCESS_TOKEN;
 	*/
   public function createMenu($menu){
   $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->_ACCESS_TOKEN;
-  echo 'token'.$url.'\r\n';
+  echo 'token'.$url."\r\n";
   $content=curl_post($url,$menu);
   $ret=json_decode($content,true);
   echo 'json'.$content;
