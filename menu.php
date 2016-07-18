@@ -35,7 +35,6 @@ $menuPostData='{
 // create new menu
 $wxmenu=new wxmenu($ACCESS_TOKEN);	 
 $create=$wxmenu->createMenu($menuPostData);
-echo 'hi';
 
 //get current menu
 // $get=$wxmenu->getMenu();
