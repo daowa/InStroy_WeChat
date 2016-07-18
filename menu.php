@@ -33,7 +33,7 @@ $menuPostData='{
 				 }';
          
 // create new menu
-// $wxmenu=new wxmenu($ACCESS_TOKEN);	 
+$wxmenu=new wxmenu($ACCESS_TOKEN);	 
 // $create=$wxmenu->createMenu($menuPostData);
 
 //get current menu
