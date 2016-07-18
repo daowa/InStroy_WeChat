@@ -278,9 +278,9 @@ class wxcommon{
   */
   public static function getToken(){
   $url="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=".APPID."&secret=".APPSECRET;
-  echo "first:".$url."\r\n";
+  echo "first:".$url."</br>";
   $content=file_get_contents($url);
-  echo "response:".$content."\r\n";
+  echo "response:".$content."</br>";
   $ret=json_decode($content,true);
     if(array_key_exists('errcode',$ret)){
         return false;
@@ -309,10 +309,10 @@ private $_ACCESS_TOKEN;
 	*/
   public function createMenu($menu){
   $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$this->_ACCESS_TOKEN;
-  echo 'token'.$url."\r\n";
+  echo 'token'.$url."</br>";
   $content=curl_post($url,$menu);
   $ret=json_decode($content,true);
-  echo 'json'.$content;
+  echo 'json'.$content."</br>";
     if($ret['errcode']==0){
         return true;
     }else{
