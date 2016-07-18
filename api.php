@@ -6,7 +6,8 @@
  * processRequest method
  */
 
-require 'defaultweixin.php';
-$weixin = new DefaultWeixin();
-$weixin->run();
-exit(0);
+// require 'defaultweixin.php';
+require 'menu.php';
+// $weixin = new DefaultWeixin();
+// $weixin->run();
+// exit(0);
