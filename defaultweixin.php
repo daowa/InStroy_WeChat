@@ -119,6 +119,79 @@ class DefaultWeixin extends wxmessage {
         header('Content-Type: application/xml');
         echo $xml;
     }
+    
+	/**
+	 * 分类处理点击事件
+     * @param type $data 微信消息体
+     */
+    private function click($data){
+    	$eventKey = $data -> EventKey;
+    	switch($eventKEy){
+    		case 'V142857_RecommendSpot':
+    			break;
+    		case 'V142857_RecommendLine':
+    			break;
+    		case 'V142857_Announcement':
+    			break;
+    	}
+    }
+    
+    //点击菜单中的“推荐景点”
+    private function MenuRecommendSpot(){
+    	$posts = array(
+    			array(
+    					'title' => '推荐景点',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
+    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    			)
+    	);
+    	$xml = $this->outputNews($posts);
+    	header('Content-Type: application/xml');
+    	echo $xml;
+    }
+    
+    //点击菜单中的“推荐线路”
+    private function MenuRecommendLine(){
+    	$posts = array(
+    			array(
+    					'title' => '推荐线路',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
+    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    			)
+    	);
+    	$xml = $this->outputNews($posts);
+    	header('Content-Type: application/xml');
+    	echo $xml;
+    }
+    
+    //点击菜单中的“景区公告”
+    private function MenuAnnouncement(){
+    	$posts = array(
+    			array(
+    					'title' => '时过境迁，找寻老照片中的金陵旧影',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
+    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    			),
+    			array(
+    					'title' => '【讲座】民国时代的另一种上海——“吴作人展”介绍',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
+    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    			),
+    			array(
+    					'title' => '【展览】唤醒！消失的印记——宫藏陆元敏、海原修平摄影',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
+    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    			)
+    	);
+    	$xml = $this->outputNews($posts);
+    	header('Content-Type: application/xml');
+    	echo $xml;
+    }
 
     /**
      * Pre processing锛宑ommon usage:save the request into your database.
