@@ -41,8 +41,18 @@ class DefaultWeixin extends wxmessage {
             $this->fulinews();
         } elseif ($this->isEventMsg()) {
             
-        } else {
-            
+        }
+        //判断并处理事件推送
+        else if($this->isEventMsg()){
+        	switch($data->Event){
+        		case 'subscribe':
+        			$this->text("hi");
+        		case 'Click':
+        			$this->click($data);
+        			break;
+        	}
+        }
+        else {
         }
     }
 
@@ -124,7 +134,7 @@ class DefaultWeixin extends wxmessage {
 	 * 分类处理点击事件
      * @param type $data 微信消息体
      */
-    public function click($data){
+    private function click($data){
     	$eventKey = $data -> EventKey;
     	switch($eventKEy){
     		case 'V142857_RecommendSpot':
