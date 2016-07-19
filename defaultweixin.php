@@ -163,7 +163,7 @@ class DefaultWeixin extends wxmessage {
     					'url' => 'http://www.bilibili.com',
     			),
     			array(
-    					'title' => '【安平老街】荷兰人建造的第一条街道，是台南少有的西式旧建筑',
+    					'title' => '【安平老街】荷兰人所建街道，是台南少有的西式旧建筑',
     					'discription' => '不知道这东西在哪显示',
     					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916638&ssig=W8i%2B1oXphE',
     					'url' => 'http://www.bilibili.com',
@@ -217,7 +217,7 @@ class DefaultWeixin extends wxmessage {
     private function MenuAnnouncement(){
     	$posts = array(
     			array(
-    					'title' => '时过境迁，找寻老照片中的金陵旧影',
+    					'title' => '【活动】时过境迁，找寻老照片中的金陵旧影',
     					'discription' => '不知道这东西在哪显示',
     					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/old.jpg?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468915220&ssig=i1y6kTEEjO',
     					'url' => 'http://mp.weixin.qq.com/s?__biz=MzA3OTkxNDg3OA==&mid=2651335669&idx=1&sn=7e11a2e04e971fb835c2e13c50b104a9&scene=0#wechat_redirect',
