@@ -12,17 +12,17 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"更换景区",
-							   "url":"http://instory.applinzi.com/src/ChangeSpot.php"
+							   "url":"http://instory.applinzi.com/web/ChangeSpot.php"
 							},
 							{
 							   "type":"view",
 							   "name":"景区地图",
-							   "url":"http://instory.applinzi.com/src/Map.php"
+							   "url":"http://instory.applinzi.com/web/Map.php"
 							},
 							{
 							   "type":"view",
 							   "name":"语音导游",
-							   "url":"http://instory.applinzi.com/src/SelfGuide.php"
+							   "url":"http://instory.applinzi.com/web/SelfGuide.php"
 							},
 							{
 							   "type":"click",
@@ -51,7 +51,7 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"人工导游",
-							   "url":"http://instory.applinzi.com/src/TourGuide.php"
+							   "url":"http://instory.applinzi.com/web/TourGuide.php"
 							}]
 					  },
 					  {
@@ -60,17 +60,17 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"最美照片",
-							   "url":"http://instory.applinzi.com/src/Picture.php"
+							   "url":"http://instory.applinzi.com/web/Picture.php"
 							},
 							{
 							   "type":"view",
 							   "name":"生成游记",
-							   "url":"http://instory.applinzi.com/src/TravelNotes.php"
+							   "url":"http://instory.applinzi.com/web/TravelNotes.php"
 							},
 							{
 							   "type":"view",
 							   "name":"个人中心",
-							   "url":"http://instory.applinzi.com/src/PersonalCenter.php"
+							   "url":"http://instory.applinzi.com/web/PersonalCenter.php"
 							}]
 					   }]
 				 }';
