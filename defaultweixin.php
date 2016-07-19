@@ -39,8 +39,6 @@ class DefaultWeixin extends wxmessage {
             $this->fulinews();
         } elseif ($this->isLinkMsg()) {
             $this->fulinews();
-        } elseif ($this->isEventMsg()) {
-            
         }
         //判断并处理事件推送
         else if($this->isEventMsg()){
