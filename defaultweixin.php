@@ -46,7 +46,6 @@ class DefaultWeixin extends wxmessage {
         		case 'subscribe':
         			$this->text("hi");
         		case 'CLICK':
-        			$this->text("CLICK");
         			$this->click($data);
         			break;
         	}
@@ -134,16 +133,16 @@ class DefaultWeixin extends wxmessage {
      * @param type $data 微信消息体
      */
     private function click($data){
-    	$eventKey = $data -> EventKey;
-    	switch($eventKEy){
+    	$eventKey = $data->EventKey;
+    	switch($eventKey){
     		case 'V142857_RecommendSpot':
-    			$this -> MenuRecommendSpot();
+    			$this->MenuRecommendSpot();
     			break;
     		case 'V142857_RecommendLine':
-    			$this -> MenuRecommendLine();
+    			$this->MenuRecommendLine();
     			break;
     		case 'V142857_Announcement':
-    			$this -> MenuAnnouncement();
+    			$this->MenuAnnouncement();
     			break;
     	}
     }
