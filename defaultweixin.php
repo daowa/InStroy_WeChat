@@ -128,10 +128,13 @@ class DefaultWeixin extends wxmessage {
     	$eventKey = $data -> EventKey;
     	switch($eventKEy){
     		case 'V142857_RecommendSpot':
+    			$this -> MenuRecommendSpot();
     			break;
     		case 'V142857_RecommendLine':
+    			$this -> MenuRecommendLine();
     			break;
     		case 'V142857_Announcement':
+    			$this -> MenuAnnouncement();
     			break;
     	}
     }
