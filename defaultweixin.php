@@ -46,6 +46,7 @@ class DefaultWeixin extends wxmessage {
         		case 'subscribe':
         			$this->text("hi");
         		case 'CLICK':
+        			$this->text("CLICK");
         			$this->click($data);
         			break;
         	}
