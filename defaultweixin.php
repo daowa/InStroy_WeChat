@@ -124,7 +124,7 @@ class DefaultWeixin extends wxmessage {
 	 * 分类处理点击事件
      * @param type $data 微信消息体
      */
-    private function click($data){
+    public function click($data){
     	$eventKey = $data -> EventKey;
     	switch($eventKEy){
     		case 'V142857_RecommendSpot':
