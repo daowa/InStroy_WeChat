@@ -12,17 +12,17 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"更换景区",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/ChangeSpot.php"
 							},
 							{
 							   "type":"view",
 							   "name":"景区地图",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/Map.php"
 							},
 							{
 							   "type":"view",
 							   "name":"语音导游",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/SelfGuide.php"
 							},
 							{
 							   "type":"click",
@@ -51,7 +51,7 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"人工导游",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/TourGuide.php"
 							}]
 					  },
 					  {
@@ -60,17 +60,17 @@ $menuPostData='{
 							{
 							   "type":"view",
 							   "name":"最美照片",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/Picture.php"
 							},
 							{
 							   "type":"view",
 							   "name":"生成游记",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/TravelNotes.php"
 							},
 							{
 							   "type":"view",
 							   "name":"个人中心",
-							   "url":"http://www.bilibili.com"
+							   "url":"http://instory.applinzi.com/src/PersonalCenter.php"
 							}]
 					   }]
 				 }';
