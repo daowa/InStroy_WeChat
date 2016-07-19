@@ -151,10 +151,34 @@ class DefaultWeixin extends wxmessage {
     private function MenuRecommendSpot(){
     	$posts = array(
     			array(
-    					'title' => '推荐景点',
+    					'title' => '【大天后宫】前身为明朝宁靖王府邸',
     					'discription' => '不知道这东西在哪显示',
-    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916261&ssig=5XjStkAFIL',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【赤崁楼】郑成功时期全岛最高行政机构',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916497&ssig=ryxezGnLex',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【安平老街】荷兰人建造的第一条街道，是台南少有的西式旧建筑',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916638&ssig=W8i%2B1oXphE',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【安平古堡】安平夕照是最美的旧“台湾八景”之一',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot3.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916778&ssig=xXcOO7eC0r',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【花园夜市】台南最大的综合夜市，吃喝玩乐一应俱全',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot4.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916902&ssig=535l6KLM6e',
+    					'url' => 'http://www.bilibili.com',
     			)
     	);
     	$xml = $this->outputNews($posts);
@@ -166,10 +190,22 @@ class DefaultWeixin extends wxmessage {
     private function MenuRecommendLine(){
     	$posts = array(
     			array(
-    					'title' => '推荐线路',
+    					'title' => '【美食路线】宽窄巷子 → 武侯祠 → 锦里',
     					'discription' => '不知道这东西在哪显示',
-    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917172&ssig=IUmqvw52%2BX',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【旧址路线】金沙遗址博物馆 → 杜甫草堂 → 青羊宫 → 九眼桥',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917172&ssig=8gm9Ftsx2H',
+    					'url' => 'http://www.bilibili.com',
+    			),
+    			array(
+    					'title' => '【自然路线】丽宁十八弯观景台 → 泸沽湖观景台 → 大落水码头 → 洛克岛 → 里格岛',
+    					'discription' => '不知道这东西在哪显示',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917375&ssig=R%2Bh1jFzUQP',
+    					'url' => 'http://www.bilibili.com',
     			)
     	);
     	$xml = $this->outputNews($posts);
@@ -183,20 +219,20 @@ class DefaultWeixin extends wxmessage {
     			array(
     					'title' => '时过境迁，找寻老照片中的金陵旧影',
     					'discription' => '不知道这东西在哪显示',
-    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/old.jpg?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468915220&ssig=i1y6kTEEjO',
+    					'url' => 'http://mp.weixin.qq.com/s?__biz=MzA3OTkxNDg3OA==&mid=2651335669&idx=1&sn=7e11a2e04e971fb835c2e13c50b104a9&scene=0#wechat_redirect',
     			),
     			array(
     					'title' => '【讲座】民国时代的另一种上海——“吴作人展”介绍',
     					'discription' => '不知道这东西在哪显示',
-    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/d7df3f12df8f5a0.jpg?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468915628&ssig=uX%2B5nFgXec',
+    					'url' => 'http://mp.weixin.qq.com/s?__biz=MjM5MDQ5OTMxNA==&mid=2657293210&idx=2&sn=32f96946044bb5253b9dadd67c818f1d&scene=0#wechat_redirect',
     			),
     			array(
     					'title' => '【展览】唤醒！消失的印记——宫藏陆元敏、海原修平摄影',
     					'discription' => '不知道这东西在哪显示',
-    					'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-    					'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+    					'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/1325465665347490060.jpg?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468915738&ssig=A1%2B0WwXFj1',
+    					'url' => 'http://mp.weixin.qq.com/s?__biz=MjM5MDQ5OTMxNA==&mid=2657292982&idx=1&sn=7176b5435340734a9f4b0badbab8ca5d&scene=0#wechat_redirect',
     			)
     	);
     	$xml = $this->outputNews($posts);
