@@ -49,6 +49,10 @@
         <button onclick="getLocalData()" >获取草稿箱内容</button>
         <button onclick="clearLocalData()" >清空草稿箱</button>
     </div>
+    
+    <div>
+    	<button onclick="insertDB()">插入数据库test表</button>
+    </div>
 
 </div>
 <div>
@@ -170,6 +174,28 @@
         UE.getEditor('editor').execCommand( "clearlocaldata" );
         alert("已清空草稿箱")
     }
+    
+    function insertDB(){
+    	SAE_MYSQL_USER = 45lj0k2255;
+    	SAE_MYSQL_PASS = kmk0zh001mz4zk1wziz43z4530xjxyiwlwxmx35y;
+    	SAE_MYSQL_HOST_M = w.rdc.sae.sina.com.cn;
+    	SAE_MYSQL_HOST_S = r.rdc.sae.sina.com.cn;
+    	SAE_MYSQL_PORT = 3307;
+    	SAE_MYSQL_DB = app_instory;
+    	// 连主库
+    	$db = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+
+    	// 连从库
+    	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+    	
+		alert("开始连接数据库");
+    	if ($db) {
+    	    mysql_select_db(SAE_MYSQL_DB, $db);
+			alert("连接成功");
+    	    // ...
+    	}
+    }
+    
 </script>
 </body>
 </html>
