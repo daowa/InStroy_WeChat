@@ -44,8 +44,7 @@ class DefaultWeixin extends wxmessage {
         else if($this->isEventMsg()){
         	switch($data->Event){
         		case 'subscribe':
-        			$this->text("欢迎使用xx景区助手\r\n\r\n根据您所在的地理位置，您现在所在的景点是：\r\n华师大\r\n您可以点击菜单“自助游玩”→“更换景区”更改所在景区，或者点击以下链接进行更改：\r\n
-        			<a href='http://www.bilibili.com>更换景区</a>");
+        			$this->text("欢迎使用xx景区助手\r\n\r\n根据您所在的地理位置，您现在所在的景点是：\r\n华师大\r\n\r\n您可以点击菜单“自助游玩”→“更换景区”更改所在景区，或者点击以下链接进行更改：\r\n<a href=\"www.bilibili.com\">更换景区</a>");
         		case 'CLICK':
         			$this->click($data);
         			break;
