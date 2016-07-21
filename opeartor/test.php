@@ -6,20 +6,20 @@ $SAE_MYSQL_HOST_S = "r.rdc.sae.sina.com.cn";
 $SAE_MYSQL_PORT = 3307;
 $SAE_MYSQL_DB = "app_instory";
  
-// function insertDB(){
-// 	echo "开始连接数据库";
-// 	// 连主库
-// 	$db = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
-// 	echo "开始连接数据库1";
+function test(){
+	echo "alert(\"开始连接数据库\")";
+	// 连主库
+	$db = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+	echo "alert(\"连接主库完成\")";
 	
-// 	// 连从库
-// 	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+	// 连从库
+	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
 	 
-// 	if ($db) {
-// 		mysql_select_db(SAE_MYSQL_DB, $db);
-// 		echo "连接成功";
-// 	}
-// }
+	if ($db) {
+		mysql_select_db(SAE_MYSQL_DB, $db);
+		echo "alert(\"连接成功\")";
+	}
+}
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -92,7 +92,7 @@ $SAE_MYSQL_DB = "app_instory";
     var ue = UE.getEditor('editor');
     
     function insertDB(){
-    	<?php echo "alert(\"hi\")";?>
+    	<?php test();?>
     }
 
 
