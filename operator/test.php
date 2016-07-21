@@ -91,7 +91,7 @@ function test($content){
     var ue = UE.getEditor('editor');
     
     function insertDB(){
-    	<?php test(UE.getEditor('editor').getContent());?>
+    	<?php test("asdf");?>
     }
 
 
