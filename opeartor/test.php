@@ -14,6 +14,9 @@ function test(){
 	if($result){
 		echo "alert(\"hi\")";
 	}
+	else {
+		echo "alert(\"no\")";
+	}
 	
 	// 连从库
 	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
