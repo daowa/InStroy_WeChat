@@ -3,7 +3,7 @@ $SAE_MYSQL_USER = "45lj0k2255";
 $SAE_MYSQL_PASS = "kmk0zh001mz4zk1wziz43z4530xjxyiwlwxmx35y";
 $SAE_MYSQL_HOST_M = "w.rdc.sae.sina.com.cn";
 $SAE_MYSQL_HOST_S = "r.rdc.sae.sina.com.cn";
-$SAE_MYSQL_PORT = 3307;
+$SAE_MYSQL_PORT = "3307";
 $SAE_MYSQL_DB = "app_instory";
  
 function test(){
