@@ -9,7 +9,7 @@ $SAE_MYSQL_DB = "app_instory";
 function test(){
 	echo "alert(\"开始连接数据库\");";
 	// 连主库
-// 	mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS,SAE_MYSQL_DB);
+	mysqli_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS,SAE_MYSQL_DB);
 	echo "alert(\"开始连接数据库2\");";
 	
 	// 连从库
