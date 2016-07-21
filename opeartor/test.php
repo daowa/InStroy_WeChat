@@ -11,6 +11,9 @@ function test(){
 	$mysql = mysqli_connect(SAE_MYSQL_HOST_M,SAE_MYSQL_USER,SAE_MYSQL_PASS,SAE_MYSQL_DB,SAE_MYSQL_PORT);
 	$query = "insert into test('content') values 'hi'";
 	$result = $mysql->query($query);
+	if($result){
+		echo "alert(\"hi\")";
+	}
 	
 	// 连从库
 	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
