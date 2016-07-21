@@ -9,7 +9,7 @@ $SAE_MYSQL_DB = "app_instory";
 function test(){
 	// 连主库
 	$mysql = mysqli_connect(SAE_MYSQL_HOST_M,SAE_MYSQL_USER,SAE_MYSQL_PASS,SAE_MYSQL_DB,SAE_MYSQL_PORT);
-	$query = "insert into test('content') values 'hi'";
+	$query = "insert into test('content') values ('hi')";
 	$result = $mysql->query($query);
 	if($result){
 		echo "alert(\"hi\")";
@@ -17,11 +17,9 @@ function test(){
 	
 	// 连从库
 	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
-	 
-// 	if ($db) {
-// 		mysql_select_db(SAE_MYSQL_DB, $db);
-// 		echo "alert(\"连接从库完成\")";
-// 	}
+	
+	$result->free();
+	$mysql->close();
 }
 ?>
 
