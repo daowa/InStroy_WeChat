@@ -92,7 +92,7 @@ function insertDB(){
     var ue = UE.getEditor('editor');
     
     function insertDB(){
-    	<?php echo "hi"?>
+    	<?php echo "alert(hi)";?>
     }
 
 
