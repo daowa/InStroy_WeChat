@@ -44,7 +44,8 @@ class DefaultWeixin extends wxmessage {
         else if($this->isEventMsg()){
         	switch($data->Event){
         		case 'subscribe':
-        			$this->text("hi");
+        			$this->text("欢迎使用xx景区助手\r\n\r\n根据您所在的地理位置，您现在所在的景点是：\r\n华师大\r\n您可以点击菜单“自助游玩”→“更换景区”更改所在景区，或者点击以下链接进行更改：\r\n
+        			<a href='http://www.bilibili.com>更换景区</a>");
         		case 'CLICK':
         			$this->click($data);
         			break;
@@ -62,10 +63,10 @@ class DefaultWeixin extends wxmessage {
         $text = 'QQ榛勯捇銆佽摑閽汇�佺孩閽汇�佺豢閽绘垨10Q甯佷换閫夊叾涓�';
         $posts = array(
             array(
-                'title' => '福利来了',
+                'title' => '退役当教练，圆梦西雅图',
                 'discription' => $text,
-                'picurl' => 'http://mmsns.qpic.cn/mmsns/XWia2Xj7RZ8mhQaESostBicFaX2HjVBbJYKKCBk9PkuicKrSZdfNL7XAw/0',
-                'url' => 'http://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MDE4Njg2MQ==&appmsgid=10000009&itemidx=1#wechat_redirect',
+                'picurl' => 'http://img2.imgtn.bdimg.com/it/u=2577400875,2279098005&fm=21&gp=0.jpg',
+                'url' => 'http://www.bilibili.com',
             )
         );
         $xml = $this->outputNews($posts);
