@@ -7,10 +7,10 @@ $SAE_MYSQL_PORT = 3307;
 $SAE_MYSQL_DB = "app_instory";
  
 function test(){
-	echo "alert(\"开始连接数据库\")";
+// 	echo "alert(\"开始连接数据库\")";
 	// 连主库
 // 	$db = mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
-	echo "alert(\"连接主库完成\")";
+// 	echo "alert(\"连接主库完成\")";
 	
 	// 连从库
 	// $db = mysql_connect(SAE_MYSQL_HOST_S.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
