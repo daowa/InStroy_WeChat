@@ -3,7 +3,7 @@ function test(){
 	// 连主库
 	echo "alert(\"hi\");";
 	$mysql = mysqli_connect(SAE_MYSQL_HOST_M, SAE_MYSQL_USER, SAE_MYSQL_PASS, SAE_MYSQL_DB, SAE_MYSQL_PORT);
-	$query = "insert into test(content) values ('hi')";
+	$query = "insert into test(content) values (UE.getEditor('editor').getContent())";
 // 	$query = "select * from test";
 	$result = $mysql->query($query);
 	if($result){
