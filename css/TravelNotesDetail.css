@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+.top{
+	position: relative;
+	height: 550px;
+	width: 100%;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+.top .photo{
+	width: 100%;
+	max-height: 100%;
+}
+.top .area{
+	position: absolute;
+    bottom: 54px;
+    z-index: 1;
+    margin: 20px 0;
+    padding: 0 40px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    font-size: 46px;
+    line-height: 1.2em;
+    color: white;
+    font-family: 微软雅黑;
+}
+.top .time{
+	position: absolute;
+    bottom: 12px;
+    z-index: 1;
+    margin: 20px 0;
+    padding: 0 40px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+    font-size: 26px;
+    line-height: 1em;
+    color: white;
+}
+.top .share{
+	position: absolute;
+	z-index : 1;
+	right: 65px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 22px;
+	padding-right: 22px;
+	font-size: 25px;
+	line-height: 1.6em;
+    color: #191919;
+    border-style: dashed;
+	border-color: red;
+}
+
+ul li{
+	padding-left: 44px;
+}
+ul .liCircular .circular{
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	background-color: #66CC99;
+}
+
+ul .liContent{
+	padding-top: 14px;
+}
+ul .liContent .content{
+	position: relative;
+	float: right;
+	width: 90%;
+	min-height: 100%;
+	margin-right: 20px;
+}
+ul .liContent .divImg{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+}
+ul .liContent .divImg img{
+	width: 100%;
+	min-height: 100%;
+}
+ul .liContent .day{
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	font-size: 70px;
+}
+ul .liContent .time_action{
+	position: relative;
+	float: left;
+	margin-top:7px;
+	line-height: 1.4em;
+	font-size: 25px;
+}
+ul .liContent .line{
+	width: 10px;
+	height: 630px;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	background-color: #66CC99;
+}
+
+.foot{
+	height: 50px;
+}
