@@ -1,3 +1,2 @@
-var DEVELOPMENT_ADDRESS = "http://instory.sinaapp.com/";
-var PRODUCTIONG_ADDRESS = "http://instory.applinzi.com/";
-var ADDRESS = DEVELOPMENT_ADDRESS;
+//var ADDRESS = "http://instory.sinaapp.com/";
+var ADDRESS = "http://instory.applinzi.com/";
