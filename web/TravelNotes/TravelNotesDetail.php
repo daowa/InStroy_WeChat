@@ -31,7 +31,7 @@
 				<img src="http://img3.imgtn.bdimg.com/it/u=2032623577,2522700900&fm=21&gp=0.jpg"/>
 			</div>
 			<h1 class="day">27日</h1>
-			<h1 class="time_action">上午11点23分<br>收听了橄榄山介绍《橄榄与摩托车维修艺术》</h1>
+			<p class="time_action">上午11点23分<br>收听了橄榄山介绍《橄榄与摩托车维修艺术》</p>
 		</div>
 		<div class="line"></div>
 	</li>
@@ -44,7 +44,7 @@
 				<img src="http://file2.mafengwo.net/M00/1B/48/wKgBm02cdda-1x9-AAvfatl9LMs42.groupinfo.w600.jpeg"/>
 			</div>
 			<h1 class="day">27日</h1>
-			<h1 class="time_action">下午1点14分<br>收集了巴哈花园介绍《空中花园与神庙》</h1>
+			<p class="time_action">下午1点14分<br>收集了巴哈花园介绍《空中花园与神庙》</p>
 		</div>
 		<div class="line"></div>
 	</li>
@@ -57,7 +57,7 @@
 				<img src="http://file105.mafengwo.net/s9/M00/3B/F2/wKgBs1dlD-6ABRaWAA-ev4h9z_M82.jpeg?imageView2%2F2%2Fw%2F680%2Fq%2F90"/>
 			</div>
 			<h1 class="day">27日</h1>
-			<h1 class="time_action">下午3点44分<br>上传了照片</h1>
+			<p class="time_action">下午3点44分<br>上传了照片</p>
 		</div>
 		<div class="line"></div>
 	</li>
@@ -70,7 +70,7 @@
 				<img src="http://singapore.mytour.com.tw/upload/img/2012121011232657239.jpg"/>
 			</div>
 			<h1 class="day">28日</h1>
-			<h1 class="time_action">上午9点04分<br>为照片点赞</h1>
+			<p class="time_action">上午9点04分<br>为照片点赞</p>
 		</div>
 		<div class="line"></div>
 	</li>
