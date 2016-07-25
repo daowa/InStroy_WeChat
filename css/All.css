@@ -18,10 +18,10 @@ html body{
 /*  */
 /* 正文   */
 html p{
-	font-size: 14px;
+	font-size: 15px;
 	color: #3E3E3E;
 	line-height: 5em;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.00em;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	-webkit-margin-before: 1em;
