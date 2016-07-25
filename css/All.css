@@ -3,7 +3,7 @@
 html body, html h1, html h2, html h3, html h4, html h5, html h6, html hr, html p, html blockquote, html dl, html dt, html dd, html ul, html ol, html li, html pre, html form, html fieldset, html legend, html button, html input, html textarea, html th, html td {
     margin: 0;
     padding: 0;
-    line-height: 1.6em }
+    line-height: 2.0em }
 html body, html button, html input, html select, html textarea {
     -webkit-touch-callout:none;
     font-style: normal;
@@ -17,7 +17,7 @@ html h1, html h2, html h3, html h4, html h5, html h6 {
 /*  */
 /* 正文   */
 html p{
-	font-size: 19px;
+	font-size: 17px;
 	color: #3E3E3E;
 	white-space: pre-wrap;
 	word-wrap: break-word;
