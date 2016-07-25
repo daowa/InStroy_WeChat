@@ -23,7 +23,7 @@
 			<div class="board" onclick="toTravelNotesDetail()">
 				<img class="photo" src="http://sh.sinaimg.cn/2015/0127/U11428P18DT20150127121811_1.jpeg">
 				<h1 class="area">日本京都红色的寺</h1>
-				<h2 class="time">2016年5月18日-19日</h2>
+				<h3 class="time">2016年5月18日-19日</h3>
 			</div>
 		</li>
 	</ul>
@@ -32,7 +32,7 @@
 			<div class="board" onclick="toTravelNotesDetail()">
 				<img class="photo" src="http://img.tuniucdn.com/icons/place_photo/2012-02-111349938391800x600.jpg">
 				<h1 class="area">河北玫瑰庄园温泉</h1>
-				<h2 class="time">2016年2月24日-27日</h2>
+				<h3 class="time">2016年2月24日-27日</h3>
 			</div>
 		</li>
 	</ul>
@@ -41,7 +41,7 @@
 			<div class="board" onclick="toTravelNotesDetail()">
 				<img class="photo" src="http://youimg1.c-ctrip.com/target/fd/tg/g4/M02/C7/DC/CggYHFYvavGATAHeAAR_dYuAI-E072.jpg">
 				<h1 class="area">大理南诏风情岛</h1>
-				<h2 class="time">2015年7月17日</h2>
+				<h3 class="time">2015年7月17日</h3>
 			</div>
 		</li>
 	</ul>

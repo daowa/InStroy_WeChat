@@ -5,7 +5,6 @@
 	width: 100%;
 	overflow: hidden;
 }
-
 .divImg img{
 	width: 100%;
 	min-height: 600px;
@@ -16,12 +15,29 @@
 	padding-right: 50px;
 	padding-top: 30px;
 }
-
 .content .voice{
 	height: 250px;
 	width: 100%;
 	background: #f5e8f4;
 }
-
 .content .text{
+}
+
+.foot{
+	height: 150px;
+}
+
+.collect{
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+	height: 160px;
+    line-height: 160px;
+    text-align: center;
+	width: 160px;
+	border-radius: 50%;
+	background-color: #66CC99;
+}
+.collect h2{
+	color: #ffffff;
 }

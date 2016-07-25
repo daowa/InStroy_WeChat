@@ -20,6 +20,7 @@ li .divText{
 }
 li .divText p{
 	text-overflow:ellipsis;
+	padding-bottom: 5px;
 }
 /* height控制下方留白高度   */
 li .line{

@@ -13,9 +13,18 @@ html h1, html h2, html h3, html h4, html h5, html h6 {
 html body{
 	-webkit-text-size-adjust: 100%!important;
 }
-/*  */
-/*  */
-/*  */
+/* 大标题   */
+html h1{
+	font-size: 46px;
+}
+/* 中标题   */
+html h2{
+	font-size: 36px;
+}
+/* 小标题   */
+html h3{
+	font-size: 26px;
+}
 /* 正文   */
 html p{
 	font-size: 15px;
