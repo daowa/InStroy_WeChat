@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>游记列表</title>
+	<title>游记详情</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" href="../../css/All.css">
 	<link rel="stylesheet" href="../../css/TravelNotesDetail.css">

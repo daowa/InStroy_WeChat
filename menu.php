@@ -50,7 +50,7 @@ $menuPostData='{
 },
 {
 "type":"view",
-"name":"人工导游",
+"name":"真人导游",
 "url":"http://instory.applinzi.com/web/TourGuide/TourGuide.php"
 }]
 },
@@ -64,7 +64,7 @@ $menuPostData='{
 },
 {
 "type":"view",
-"name":"生成游记",
+"name":"我的足迹",
 "url":"http://instory.applinzi.com/web/TravelNotes/TravelNotes.php"
 },
 {
