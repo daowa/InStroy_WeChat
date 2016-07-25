@@ -1,16 +1,16 @@
 @CHARSET "UTF-8";
 
 li{
-	
+	background-color: #ffffff;
 }
 li .divImg{
-	height: 500px;
+	height: 550px;
 	width: 100%;
 	overflow: hidden;
 }
 li .divImg img{
 	width: 100%;
-	min-height: 100%;
+	min-height: 550px;
 }
 li .divText{
 	width: 800px;
@@ -25,4 +25,9 @@ li .line{
 	height: 1px;
 	width: 100%;
 	-webkit-box-shadow: 1px 0px 1px 2px #cfcfcf;
+}
+li .space{
+	height: 15px;
+	width: 100%;
+	background-color: #f3f3f3;
 }
