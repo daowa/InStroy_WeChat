@@ -13,7 +13,7 @@
 
 <body>
 <div class="divImg">
-	<img src="http://pic.lvmama.com/uploads/pc/place2/2014-10-22/1413950255839.jpg">
+	<img src="http://img5.imgtn.bdimg.com/it/u=519206360,3740008041&fm=21&gp=0.jpg">
 </div>
 <div class="content">
 	<div class="voice"></div>

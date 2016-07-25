@@ -18,12 +18,8 @@ li .divText{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-li .divText h1{
-	padding-bottom: 10px;
-	font-size: 15px;
-	font-style: normal;
-	line-height: 1.8em;
-	color: #4c4c4c;
+li .divText p{
+	text-overflow:ellipsis;
 }
 li .line{
 	height: 1px;

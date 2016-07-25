@@ -18,7 +18,8 @@ html h1, html h2, html h3, html h4, html h5, html h6 {
 html p{
 	font-size: 19px;
 	color: #3E3E3E;
-	line-height: 4.0em;
+	line-height: 3em;
+	letter-spacing: 0.2em;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	-webkit-margin-before: 1em;
