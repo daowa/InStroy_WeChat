@@ -12,7 +12,8 @@
 	
 	<script type="text/javascript">
 	function toTravelNotesDetail(){
-		self.location = ADDRESS + "web/TravelNotes/TravelNotesDetail.php";
+		//self.location = ADDRESS + "web/TravelNotes/TravelNotesDetail.php";
+		self.location = "http://instory.applinzi.com/web/TravelNotes/TravelNotesDetail.php";
 	}
 	</script>
 </head>
