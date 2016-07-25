@@ -18,9 +18,9 @@ html body{
 /*  */
 /* 正文   */
 html p{
-	font-size: 17px;
+	font-size: 16px;
 	color: #3E3E3E;
-	line-height: 3.2em;
+	line-height: 4em;
 	letter-spacing: 0.05em;
 	white-space: pre-wrap;
 	word-wrap: break-word;
