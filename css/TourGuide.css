@@ -22,11 +22,12 @@ li .divText p{
 	text-overflow:ellipsis;
 }
 li .line{
-	height: 1px;
+	height: 10px;
 	width: 100%;
-	-webkit-box-shadow: 1px -5px 5px #000000;
+	-webkit-box-shadow: 1px 4px 4px #dfdfdf;
 }
 li .space{
+	margin-top: 4px;
 	height: 15px;
 	width: 100%;
 	background-color: #f3f3f3;
