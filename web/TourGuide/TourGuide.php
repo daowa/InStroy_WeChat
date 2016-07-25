@@ -24,7 +24,6 @@
 		</div>
 		<div class="line"></div>
 		<div class="space"></div>
-		</div>
 	</li>
 	<li>
 		<div class="divImg">
@@ -37,7 +36,6 @@
 		</div>
 		<div class="line"></div>
 		<div class="space"></div>
-		</div>
 	</li>
 	<li>
 		<div class="divImg">
