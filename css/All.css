@@ -3,6 +3,12 @@
 html body, html h1, html h2, html h3, html h4, html h5, html h6, html hr, html p, html blockquote, html dl, html dt, html dd, html ul, html ol, html li, html pre, html form, html fieldset, html legend, html button, html input, html textarea, html th, html td {
     margin: 0;
     padding: 0; }
+html body{
+	-webkit-touch-callout:none;
+	font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+	background-color:#f3f3f3;
+	line-height:inherit;
+}
 html body, html button, html input, html select, html textarea {
     font: 12px/1.5tahoma, arial, \5b8b\4f53; }
 html h1, html h2, html h3, html h4, html h5, html h6 {
