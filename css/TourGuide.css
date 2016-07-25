@@ -24,7 +24,7 @@ li .divText p{
 li .line{
 	height: 1px;
 	width: 100%;
-	-webkit-box-shadow: 1px 2px 0px 2px #dfdfdf;
+	-webkit-box-shadow: 1px 2px 1px 2px #dcdcdc;
 }
 li .space{
 	height: 15px;
