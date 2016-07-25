@@ -10,12 +10,15 @@ html body, html button, html input, html select, html textarea {
 	line-height:inherit;}
 html h1, html h2, html h3, html h4, html h5, html h6 {
     font-size: 100%; }
+html body{
+	-webkit-text-size-adjust: 100%!important;
+}
 /*  */
 /*  */
 /*  */
 /* 正文   */
 html p{
-	font-size: 19px;
+	font-size: 17px;
 	color: #3E3E3E;
 	line-height: 3.2em;
 	letter-spacing: 0.05em;

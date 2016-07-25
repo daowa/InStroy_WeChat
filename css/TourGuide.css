@@ -23,7 +23,7 @@ li .divText p{
 }
 /* height控制下方留白高度   */
 li .line{
-	height: 15px;
+	height: 13px;
 	width: 100%;
 	-webkit-box-shadow: 0px 4px 4px #dfdfdf;
 }
