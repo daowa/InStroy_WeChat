@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.divImg{
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.divImg img{
+	width: 100%;
+	min-height: 100%;
+}
+
+.content{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+.content .voice{
+	height: 250px;
+	width: 100%;
+	background: #f5e8f4;
+}
+
+.content .text{
+	font-size: 24px;
+    line-height: 1.2em;
+    color: #010001;
+    font-family: 思源黑体;
+}

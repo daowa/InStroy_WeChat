@@ -7,6 +7,10 @@ html body, html button, html input, html select, html textarea {
     font: 12px/1.5tahoma, arial, \5b8b\4f53; }
 html h1, html h2, html h3, html h4, html h5, html h6 {
     font-size: 100%; }
+/* 标题   */
+html h1{
+	
+}
 html address, html cite, html dfn, html em, html var {
     font-style: normal; }
 html code, html kbd, html pre, html samp {
