@@ -19,9 +19,10 @@ li .divText{
 	padding-bottom: 20px;
 }
 li .divText h1{
-	padding-bottom: 2px;
+	padding-bottom: 10px;
 	font-size: 15px;
-	line-height: 1.4em;
+	font-style: normal;
+	line-height: 1.8em;
 	color: #4c4c4c;
 }
 li .line{
