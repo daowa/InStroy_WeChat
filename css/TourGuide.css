@@ -21,10 +21,11 @@ li .divText{
 li .divText p{
 	text-overflow:ellipsis;
 }
+/* height控制下方留白高度   */
 li .line{
-	height: 10px;
+	height: 15px;
 	width: 100%;
-	-webkit-box-shadow: 1px 4px 4px #dfdfdf;
+	-webkit-box-shadow: 0px 4px 4px #dfdfdf;
 }
 li .space{
 	margin-top: 4px;
