@@ -46,7 +46,7 @@ $menuPostData='{
 	{
 	"type":"view",
 	"name":"景区客服",
-	"url":"http://instory.applinzi.com/web/Map/Story.php"
+	"url":"http://instory.applinzi.com/web/Map/StoryDetail.php"
 	},
 	{
 	"type":"view",
