@@ -16,7 +16,7 @@
 	<script type="text/javascript">
 	$(function() {
 		$(".collect").click(function() {
-			swal("已收集!", "可在我的游记中浏览", "success");
+			swal("已收集 !", "收录在'我的足迹'页面", "success");
 		});
 	});
 	</script>
