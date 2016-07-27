@@ -8,12 +8,23 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" href="../../css/All.css">
 	<link rel="stylesheet" href="../../css/Story.css">
+	<link rel="stylesheet" href="../../css/sweetalert.css">
+	<script src="../../js/jquery.js"></script>
 	<script src="../../js/all.js"></script>
+	<script src="../../js/sweetalert.min.js"></script>
+	
+	<script type="text/javascript">
+	$(function() {
+		$(".collect").click(function() {
+			swal("已收集!", "可在我的游记中浏览", "success");
+		});
+	});
+	</script>
 </head>
 
 <body>
 <div class="divImg">
-	<img src="http://img5.imgtn.bdimg.com/it/u=519206360,3740008041&fm=21&gp=0.jpg">
+	<img src="http://img2.imgtn.bdimg.com/it/u=1345224505,2075053345&fm=21&gp=0.jpg">
 </div>
 <div class="content">
 	<div class="voice"></div>
@@ -23,7 +34,6 @@
 </div>
 <div class="foot">
 </div>
-
 <div class="collect">
 	<h2>集游</h2>
 </div>
