@@ -135,8 +135,11 @@ class DefaultWeixin extends wxmessage {
 	private function click($data){
 		$eventKey = $data->EventKey;
 		switch($eventKey){
-			case 'V142857_RecommendSpot':
-				$this->MenuRecommendSpot();
+			case 'V142857_NearSpot':
+				$this->MenuNearSpot();
+				break;
+			case 'V142857_NearStory':
+				$this->MenuNearStory();
 				break;
 			case 'V142857_RecommendLine':
 				$this->MenuRecommendLine();
@@ -147,8 +150,8 @@ class DefaultWeixin extends wxmessage {
 		}
 	}
 
-	//点击菜单中的“推荐景点”
-	private function MenuRecommendSpot(){
+	//点击菜单中的“附近景点”
+	private function MenuNearSpot(){
 		$posts = array(
 				array(
 						'title' => '【大天后宫】前身为明朝宁靖王府邸',
@@ -179,6 +182,41 @@ class DefaultWeixin extends wxmessage {
 						'discription' => '不知道这东西在哪显示',
 						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot4.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916902&ssig=535l6KLM6e',
 						'url' => 'http://www.bilibili.com',
+				)
+		);
+		$xml = $this->outputNews($posts);
+		header('Content-Type: application/xml');
+		echo $xml;
+	}
+	
+	//点击菜单中的“附近故事”
+	private function MenuNearStory(){
+		$posts = array(
+				array(
+						'title' => '三十天走遍美国',
+						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916261&ssig=5XjStkAFIL',
+						'url' => 'web/SpotList/StoryDetail.php',
+				),
+				array(
+						'title' => '七天学会英语',
+						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916497&ssig=ryxezGnLex',
+						'url' => 'web/SpotList/StoryDetail.php',
+				),
+				array(
+						'title' => 'java从入门到精通',
+						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916638&ssig=W8i%2B1oXphE',
+						'url' => 'web/SpotList/StoryDetail.php',
+				),
+				array(
+						'title' => 'c++从入门到放弃',
+						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot3.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916778&ssig=xXcOO7eC0r',
+						'url' => 'web/SpotList/StoryDetail.php',
+				),
+				array(
+						'title' => 'python真好用',
+						'discription' => '不知道这东西在哪显示',
+						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot4.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916902&ssig=535l6KLM6e',
+						'url' => 'web/SpotList/StoryDetail.php',
 				)
 		);
 		$xml = $this->outputNews($posts);
