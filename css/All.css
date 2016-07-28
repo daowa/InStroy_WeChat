@@ -1,50 +1,20 @@
 @CHARSET "UTF-8";
 
+html{
+	font-size: 62.5%; 
+}
 html body, html h1, html h2, html h3, html h4, html h5, html h6, html hr, html p, html blockquote, html dl, html dt, html dd, html ul, html ol, html li, html pre, html form, html fieldset, html legend, html button, html input, html textarea, html th, html td {
     margin: 0;
     padding: 0;}
 html body, html button, html input, html select, html textarea {
     -webkit-touch-callout:none;
     font-style: normal;
-	font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-	line-height:inherit;}
-html h1, html h2, html h3, html h4, html h5, html h6 {
-    font-size: 100%; }
-html body{
-	-webkit-text-size-adjust: 100%!important;
-}
-/* 大标题   */
-html h1{
-	font-size: 46px;
-}
-/* 中标题   */
-html h2{
-	font-size: 36px;
-}
-/* 小标题   */
-html h3{
-	font-size: 26px;
-}
-/* 正文   */
-html p{
-	font-size: 15px;
-	color: #3E3E3E;
-	line-height: 5em;
-	letter-spacing: 0.00em;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	-webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
+	font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
 html address, html cite, html dfn, html em, html var {
     font-style: normal; }
 html code, html kbd, html pre, html samp {
     font-family: -apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
-html small {
-    font-size: 12px; }
-html ul, html ol {
+html ul, html ol, html li {
     list-style: none; }
 html ul{
 	padding:0;
@@ -53,7 +23,6 @@ html ul{
 html li{
 	margin: 0;
 	padding: 0;
-    list-style-type:none;
 }
 html a {
     text-decoration: none; }
@@ -72,3 +41,50 @@ html button, html input, html select, html textarea {
 html table {
     border-collapse: collapse;
     border-spacing: 0; }
+
+/* 文字   */
+/* 大标题   */
+html h1{
+	font-size: 4.6rem;
+}
+/* 中标题   */
+html h2{
+	font-size: 3.6rem;
+}
+/* 小标题   */
+html h3{
+	font-size: 2.6rem;
+}
+/* 正文   */
+html p{
+	font-size: 1.5rem;
+	line-height: 4.2rem;
+	letter-spacing: 0.00em;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+/* li下p的文字大小会偏小   */
+li p{
+	font-size: 3.6rem;
+	line-height: 4.2rem;
+	letter-spacing: 0.00em;
+}
+.textColorDark{}
+.textColorMiddle{color: #3e3e3e}
+.textColorLight{color: #949494}
+.textSize1{}
+.textSize2{}
+.textSize3{font-size: 3.6rem;}
+.textSize4{}
+
+/* 一些控件   */
+.space{
+	margin-top: 0.4rem;
+	height: 2rem;
+	width: 100%;
+	background-color: #E4E4E4;
+}

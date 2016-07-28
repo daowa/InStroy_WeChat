@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Story</title>
+	<title>StoryDetail</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<link rel="stylesheet" href="../../css/All.css">
-	<link rel="stylesheet" href="../../css/Story.css">
+	<link rel="stylesheet" href="../../css/StoryDetail.css">
 	<link rel="stylesheet" href="../../css/sweetalert.css">
 	<script src="../../js/jquery.js"></script>
 	<script src="../../js/all.js"></script>

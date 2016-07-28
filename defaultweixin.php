@@ -157,7 +157,7 @@ class DefaultWeixin extends wxmessage {
 						'title' => '【大天后宫】前身为明朝宁靖王府邸',
 						'discription' => '不知道这东西在哪显示',
 						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916261&ssig=5XjStkAFIL',
-						'url' => 'http://www.bilibili.com',
+						'url' => 'http://instory.sinaapp.com/web/SpotList/SpotDetail.php',
 				),
 				array(
 						'title' => '【赤崁楼】郑成功时期全岛最高行政机构',
