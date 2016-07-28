@@ -3,6 +3,12 @@
 <head>
 	<title>游记详情</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no,email=no" name="format-detection">
 	<link rel="stylesheet" href="../../css/All.css">
 	<link rel="stylesheet" href="../../css/TravelNotesDetail.css">
 	<script src="../../js/all.js"></script>
@@ -18,8 +24,8 @@
 <!-- </div> -->
 <div class="top">
 	<img class="photo" src="http://sh.sinaimg.cn/2015/0127/U11428P18DT20150127121811_1.jpeg">
-	<h1 class="area">日本京都红色的寺</h1>
-	<h2 class="time">2016年5月18日-19日</h2>
+	<h2 class="area">日本京都红色的寺</h2>
+	<h3 class="time">2016年5月18日-19日</h3>
 </div>
 <ul>
 	<li class="liCircular">
@@ -73,6 +79,9 @@
 			<p class="time_action">上午9点04分<br>为照片点赞</p>
 		</div>
 		<div class="line"></div>
+	</li>
+	<li class="liCircular">
+		<div class="circular"></div>
 	</li>
 </ul>
 <div class="foot"></div>

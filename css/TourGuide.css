@@ -4,27 +4,23 @@ li{
 	background-color: #ffffff;
 }
 li .divImg{
-	height: 550px;
+	height: 20rem;
 	width: 100%;
 	overflow: hidden;
 }
 li .divImg img{
 	width: 100%;
-	min-height: 550px;
+	min-height: 20rem;
 }
 li .divText{
-	width: 800px;
+	width: 24rem;
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-li .divText p{
-	text-overflow:ellipsis;
-	padding-bottom: 5px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 /* height控制下方留白高度   */
 li .line{
-	height: 13px;
+	height: 0.1rem;
 	width: 100%;
-	-webkit-box-shadow: 0px 4px 4px #dfdfdf;
+	background-color: #dfdfdf;
 }
