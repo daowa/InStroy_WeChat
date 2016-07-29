@@ -30,7 +30,7 @@
 
 <body>
 <div class="divImg">
-	<img src="http://img2.imgtn.bdimg.com/it/u=1345224505,2075053345&fm=21&gp=0.jpg">
+	<img src="http://file28.mafengwo.net/M00/B1/C7/wKgB6lS1Mk-AV3OpACQKHJNndwE05.groupinfo.w600.jpeg">
 </div>
 <div class="content">
 	<div class="voice"></div>

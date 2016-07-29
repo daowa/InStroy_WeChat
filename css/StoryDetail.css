@@ -22,21 +22,20 @@
 }
 
 .foot{
-	height: 5rem;
+	height: 6.5rem;
 }
 
 .collect{
 	position: fixed;
 	right: 2rem;
 	bottom: 2rem;
-	height: 5rem;
-	width: 5rem;
-    line-height: 5rem;
+	height: 6rem;
+	width: 6rem;
+    line-height: 6rem;
     text-align: center;
 	border-radius: 50%;
 	background-color: #66CC99;
 }
 .collect h3{
-	font-size: 1.6rem;
 	color: #ffffff;
 }
