@@ -156,32 +156,32 @@ class DefaultWeixin extends wxmessage {
 				array(
 						'title' => '【大天后宫】前身为明朝宁靖王府邸',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916261&ssig=5XjStkAFIL',
-						'url' => 'http://instory.sinaapp.com/web/SpotList/SpotDetail.php',
+						'picurl' => 'http://file111.mafengwo.net/s7/M00/4A/7D/wKgB6lTy05CAGy9mABktAObr9sw29.jpeg?imageView2%2F2%2Fw%2F1920%2Fh%2F9999%2Fq%2F90',
+						'url' => 'http://instory.applinzi.com/web/SpotList/SpotDetail.php',
 				),
 				array(
 						'title' => '【赤崁楼】郑成功时期全岛最高行政机构',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916497&ssig=ryxezGnLex',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file30.mafengwo.net/M00/76/51/wKgBpVXPPfuAfn7dAAtGd8uGorI85.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/SpotDetail.php',
 				),
 				array(
 						'title' => '【安平老街】荷兰人所建街道，是台南少有的西式旧建筑',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916638&ssig=W8i%2B1oXphE',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file31.mafengwo.net/M00/8E/38/wKgBs1aJalWAN2qMABN35o_DqcE33.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/SpotDetail.php',
 				),
 				array(
 						'title' => '【安平古堡】安平夕照是最美的旧“台湾八景”之一',
 						'discription' => '不知道这东西在哪显示',
 						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot3.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916778&ssig=xXcOO7eC0r',
-						'url' => 'http://www.bilibili.com',
+						'url' => 'http://file30.mafengwo.net/M00/61/21/wKgBpVW9u4-AfNbEABIYNrDL0rQ07.mdd.w250.jpeg',
 				),
 				array(
 						'title' => '【花园夜市】台南最大的综合夜市，吃喝玩乐一应俱全',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot4.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916902&ssig=535l6KLM6e',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file29.mafengwo.net/M00/73/9C/wKgBpVXF73CAQtI3AA6qtlPmFNw37.rbook_comment.w200.jpeg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/SpotDetail.php',
 				)
 		);
 		$xml = $this->outputNews($posts);
@@ -194,29 +194,29 @@ class DefaultWeixin extends wxmessage {
 		$posts = array(
 				array(
 						'title' => '三十天走遍美国',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916261&ssig=5XjStkAFIL',
-						'url' => 'web/SpotList/StoryDetail.php',
+						'picurl' => 'http://img2.imgtn.bdimg.com/it/u=875101194,90095390&fm=11&gp=0.jpg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/StoryDetail.php',
 				),
 				array(
 						'title' => '七天学会英语',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916497&ssig=ryxezGnLex',
-						'url' => 'web/SpotList/StoryDetail.php',
+						'picurl' => 'http://img4.imgtn.bdimg.com/it/u=3465674042,1628308734&fm=21&gp=0.jpg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/StoryDetail.php',
 				),
 				array(
 						'title' => 'java从入门到精通',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916638&ssig=W8i%2B1oXphE',
-						'url' => 'web/SpotList/StoryDetail.php',
+						'picurl' => 'http://img4.imgtn.bdimg.com/it/u=3138304874,3977545554&fm=21&gp=0.jpg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/StoryDetail.php',
 				),
 				array(
 						'title' => 'c++从入门到放弃',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot3.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916778&ssig=xXcOO7eC0r',
-						'url' => 'web/SpotList/StoryDetail.php',
+						'picurl' => 'http://img1.imgtn.bdimg.com/it/u=638799363,2449663312&fm=21&gp=0.jpg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/StoryDetail.php',
 				),
 				array(
 						'title' => 'python真好用',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot4.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916902&ssig=535l6KLM6e',
-						'url' => 'web/SpotList/StoryDetail.php',
+						'picurl' => 'http://img5.imgtn.bdimg.com/it/u=2690817382,2844461393&fm=21&gp=0.jpg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/StoryDetail.php',
 				)
 		);
 		$xml = $this->outputNews($posts);
@@ -230,20 +230,20 @@ class DefaultWeixin extends wxmessage {
 				array(
 						'title' => '【美食路线】宽窄巷子 → 武侯祠 → 锦里',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line0.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917172&ssig=IUmqvw52%2BX',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file29.mafengwo.net/M00/DB/EC/wKgBpVWosLaAO4DuAAGtkNDLhxE37.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/RecommendLine/RecommendLine.php',
 				),
 				array(
 						'title' => '【旧址路线】金沙遗址博物馆 → 杜甫草堂 → 青羊宫 → 九眼桥',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line1.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917172&ssig=8gm9Ftsx2H',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file31.mafengwo.net/M00/A3/E2/wKgBs1ZJTM6ACFMiADFuNhZNmOE89.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/RecommendLine/RecommendLine.php',
 				),
 				array(
 						'title' => '【自然路线】丽宁十八弯观景台 → 泸沽湖观景台 → 大落水码头 → 洛克岛 → 里格岛',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/line2.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468917375&ssig=R%2Bh1jFzUQP',
-						'url' => 'http://www.bilibili.com',
+						'picurl' => 'http://file27.mafengwo.net/M00/9A/4A/wKgB6lT5I9mATCa9AAgTc5eEcz800.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/RecommendLine/RecommendLine.php',
 				)
 		);
 		$xml = $this->outputNews($posts);
