@@ -2,17 +2,17 @@
 
 .divImg{
 	position: relative;
-	height: 18rem;
+	height: 19rem;
 	width: 100%;
 	overflow: hidden;
 }
 .divImg img{
 	width: 100%;
-	min-height: 18rem;
+	min-height: 19rem;
 }
 .divImg .divSpotName{
-	height: 2.8rem;
-	line-height: 2.8rem;
+	height: 2.9rem;
+	line-height: 2.9rem;
 	width: 100%;
 	position: absolute;
 	left: 0px;
@@ -93,7 +93,7 @@ ul li .divRight{
 }
 
 .divTop{
-	height: 2.6rem;
+	height: 2.9rem;
 	width: 100%;
 	position: relative;
 }
@@ -102,16 +102,16 @@ ul li .divRight{
 	left: 1rem;
 	font-size: 1.4rem;
 	line-height: 2.6rem;
-	-webkit-margin-before: 0rem;
-    -webkit-margin-after: 0rem;
+	-webkit-margin-before: 0.2rem;
+    -webkit-margin-after: 0.1rem;
 }
 .divTop .textMore{
 	position: absolute;
 	right: 1rem;
 	font-size: 1.4rem;
 	line-height: 2.6rem;
-	-webkit-margin-before: 0rem;
-    -webkit-margin-after: 0rem;
+	-webkit-margin-before: 0.2rem;
+    -webkit-margin-after: 0.1rem;
 }
 .divContent{
 	padding-top: 1rem;
@@ -126,6 +126,6 @@ ul li .divRight{
 	min-height: 17rem;
 }
 .divContent .text p{
-	-webkit-margin-before: 0.2rem;
+	-webkit-margin-before: 0.4rem;
     -webkit-margin-after: 0.6rem;
 }

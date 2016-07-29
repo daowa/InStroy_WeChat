@@ -174,8 +174,8 @@ class DefaultWeixin extends wxmessage {
 				array(
 						'title' => '【安平古堡】安平夕照是最美的旧“台湾八景”之一',
 						'discription' => '不知道这东西在哪显示',
-						'picurl' => 'http://cdn.sinacloud.net/picture.instory.com/photo/spot3.png?KID=sina,2dieczkaBHVelyldaa1V&Expires=1468916778&ssig=xXcOO7eC0r',
-						'url' => 'http://file30.mafengwo.net/M00/61/21/wKgBpVW9u4-AfNbEABIYNrDL0rQ07.mdd.w250.jpeg',
+						'picurl' => 'http://file30.mafengwo.net/M00/61/21/wKgBpVW9u4-AfNbEABIYNrDL0rQ07.mdd.w250.jpeg',
+						'url' => 'http://instory.applinzi.com/web/SpotList/SpotDetail.php',
 				),
 				array(
 						'title' => '【花园夜市】台南最大的综合夜市，吃喝玩乐一应俱全',

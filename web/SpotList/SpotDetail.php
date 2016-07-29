@@ -31,7 +31,7 @@
 
 <body>
 <div class="divImg">
-	<img src="http://img1.imgtn.bdimg.com/it/u=3849951268,817239301&fm=21&gp=0.jpg"/>
+	<img src="http://static.panoramio.com/photos/large/25625969.jpg"/>
 	<div class="divSpotName">
 		<h2 class="spotName">正德太岚殿</h2>
 	</div>
@@ -57,17 +57,23 @@
 			<h2>太和门三大殿</h2>
 			<p class="pSmall">故宫宫殿的建筑布局有外朝、内廷之分。内廷与外朝的建筑气氛迥然不同。外朝以太和、中和、保和三大殿为中心，是封建皇帝行使权力、举行盛典...</p>
 		</div>
-		<img class="divRight" src="http://img2.imgtn.bdimg.com/it/u=2001513216,1506955274&fm=21&gp=0.jpg"/>
+		<a href="http://instory.sinaapp.com/web/SpotList/StoryDetail.php">
+			<img class="divRight" src="http://img2.imgtn.bdimg.com/it/u=2001513216,1506955274&fm=21&gp=0.jpg"/>
+		</a>
 	</li>
 	<li>
-		<img class="divLeft" src="http://img5.imgtn.bdimg.com/it/u=2750712910,1928934221&fm=21&gp=0.jpg"/>
+		<a href="http://instory.sinaapp.com/web/SpotList/StoryDetail.php">
+			<img class="divLeft" src="http://img5.imgtn.bdimg.com/it/u=2750712910,1928934221&fm=21&gp=0.jpg"/>
+		</a>
 		<div class="divText divRight">
 			<h2>东华门</h2>
 			<p class="pSmall">东华门是紫禁城东门，始建于明永乐十八年（1420年）。东华门东向，与西华门遥相对应，门外设有下马碑石，门内金水河南北流向，上架石桥1座，桥北为...</p>
 		</div>
 	</li>
 	<li>
-		<img class="divLeft" src="http://img0.imgtn.bdimg.com/it/u=2269844107,563276045&fm=21&gp=0.jpg"/>
+		<a href="http://instory.sinaapp.com/web/SpotList/StoryDetail.php">
+			<img class="divLeft" src="http://img0.imgtn.bdimg.com/it/u=2269844107,563276045&fm=21&gp=0.jpg"/>
+		</a>
 		<div class="divText divRight">
 			<h2>午门来历</h2>
 			<p class="pSmall">午门是紫禁城的正门。东西北三面城台相连，环抱一个方形广场。北面门楼，面阔九间，重檐黄瓦庑殿顶。东西城台上各有庑房十三间，从门楼两侧向南...</p>
