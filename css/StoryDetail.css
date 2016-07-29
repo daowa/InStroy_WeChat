@@ -36,6 +36,7 @@
 	border-radius: 50%;
 	background-color: #66CC99;
 }
-.collect h3{
+.collect h2{
+	font-size: 1.5rem;
 	color: #ffffff;
 }

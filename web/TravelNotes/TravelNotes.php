@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>游记列表</title>
+	<title>我的足迹</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">

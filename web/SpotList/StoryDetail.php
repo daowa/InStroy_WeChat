@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>StoryDetail</title>
+	<title>Story</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
@@ -41,7 +41,7 @@
 <div class="foot">
 </div>
 <div class="collect">
-	<h3>收集</h3>
+	<h2>收集</h2>
 </div>
 </body>
 

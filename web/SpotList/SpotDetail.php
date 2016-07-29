@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SpotDetail</title>
+	<title>景点</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="width">
