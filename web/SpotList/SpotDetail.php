@@ -15,6 +15,18 @@
 	<link rel="stylesheet" href="../../css/All.css">
 	<link rel="stylesheet" href="../../css/SpotDetail.css">
 	<script src="../../js/all.js"></script>
+	<script src="../../js/jquery.js"></script>
+	
+	<script type="text/javascript">
+	$(function() {
+		$("#buttonVoice").mousedown(function() {
+			$("#buttonVoice").css("background-color", "#ececec");
+		});
+		$("#buttonVoice").mouseup(function() {
+			$("#buttonVoice").css("background-color", "#ffffff");
+		});
+	});
+	</script>
 </head>
 
 <body>
@@ -26,12 +38,12 @@
 </div>
 
 <div class="divButtons">
-	<div class="divButton">
+	<div id="buttonVoice" class="divButton">
 		<img src="../../img/SpotDetail_Voice.png"/>
 		<p>自动讲解</p>
 	</div>
 	<div class="line0"></div>
-	<div class="divButton">
+	<div id="buttonMap" class="divButton">
 		<img src="../../img/SpotDetail_Map.png"/>
 		<p>路线导航</p>
 	</div> 
