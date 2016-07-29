@@ -11,8 +11,8 @@
 	min-height: 19rem;
 }
 .divImg .divSpotName{
-	height: 2.9rem;
-	line-height: 2.9rem;
+	height: 3.0rem;
+	line-height: 3.0rem;
 	width: 100%;
 	position: absolute;
 	left: 0px;
@@ -22,6 +22,8 @@
 .divImg .spotName{
 	padding-left: 1rem;
 	color: #ffffff;
+	-webkit-margin-before: 0.1rem;
+    -webkit-margin-after: 0.0rem;
 }
 
 .divButtons{
@@ -126,6 +128,6 @@ ul li .divRight{
 	min-height: 17rem;
 }
 .divContent .text p{
-	-webkit-margin-before: 0.4rem;
+	-webkit-margin-before: 0.6rem;
     -webkit-margin-after: 0.6rem;
 }
