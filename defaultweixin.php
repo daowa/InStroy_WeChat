@@ -17,7 +17,7 @@ class DefaultWeixin extends wxmessage {
 				case 'Hello2BizUser'://only available before March 26,2013
 					$this->welcome();
 					break;
-				case 'news'://news
+				case 'news'://news 
 					$this->fulinews();
 					break;
 				case 'music':

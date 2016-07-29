@@ -61,6 +61,7 @@ html p{
 	line-height: 2.4rem;
 	letter-spacing: 0.00em;
 	white-space: pre-wrap;
+	box-sizing: border-box;
 	word-wrap: break-word;
 	-webkit-margin-before: 0.7rem;
     -webkit-margin-after: 0.7rem;
