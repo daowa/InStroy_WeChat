@@ -10,7 +10,6 @@ $menuPostData='{
 "name":"附近",
 "sub_button":[
 	{
-	{
 	"type":"view",
 	"name":"地图",
 	"url":"http://instory.applinzi.com/web/Map/Map.php"
@@ -19,7 +18,7 @@ $menuPostData='{
 	"type":"view",
 	"name":"景点",
 	"url":"http://instory.applinzi.com/web/SelfGuide/SelfGuide.php"
-	},
+	}]
 },
 {
 "name":导游",
@@ -38,7 +37,6 @@ $menuPostData='{
 	"name":"游记",
 	"url":"http://instory.applinzi.com/web/TravelNotes/TravelNotes.php"
 	}]
-}]
 }';
  
 // create new menu
