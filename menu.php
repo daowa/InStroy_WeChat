@@ -21,6 +21,7 @@ $menuPostData='{
 	}]
 },
 {
+"type":"view",
 "name":导游",
 "url":"http://instory.applinzi.com/web/SelfGuide/SelfGuide.php"
 },
@@ -37,6 +38,7 @@ $menuPostData='{
 	"name":"游记",
 	"url":"http://instory.applinzi.com/web/TravelNotes/TravelNotes.php"
 	}]
+}]
 }';
  
 // create new menu
